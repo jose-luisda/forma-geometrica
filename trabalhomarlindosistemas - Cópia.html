@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>trabalho prof  paulo de tarso</title>
+	<script type="text/javascript">
+		
+		function formulario(){
+			var nome=form.nome.value; 
+			var email=form.email.value;
+			if(nome!=false){
+				document.write("seu nome esta correto<br>");
+			}
+			if(email!=false){
+				document.write("seu email esta correto");
+			}
+		}
+
+	</script>
+</head>
+<body>
+<form id="form">
+	<input type="text" name="nome" placeholder="digite seu nome"><br>
+	<input type="email" name="email" placeholder="digite seu email"><br>
+	<input onclick="formulario()" type="submit" name="enviar" value="enviar"><br>
+
+</form>
+</body>
+</html>
